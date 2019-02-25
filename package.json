@@ -18,5 +18,8 @@
     "babel-loader": "^8.0.4",
     "webpack": "^4.27.1",
     "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "sblock4js": "^0.0.1"
   }
 }

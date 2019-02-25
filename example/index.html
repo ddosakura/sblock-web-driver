@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,24 @@
     <title>Document</title>
     <script src='/raw.js'></script>
     <script src="/scripts/sblock-web-driver.min.js"></script>
-    <script>
-        SBlockWebDriver(Raw)
-    </script>
+    <style>
+        #mount-point {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #000;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div id='mount-point'></div>
+    <script>
+        const root = document.getElementById('mount-point')
+        SBlockWebDriver(root, Raw, "/public")
+    </script>
 </body>
+
 </html>

@@ -781,6 +781,11 @@ acorn@^6.0.5:
   resolved "http://registry.npm.taobao.org/acorn/download/acorn-6.1.0.tgz#b0a3be31752c97a0f7013c5f4903b71a05db6818"
   integrity sha1-sKO+MXUsl6D3ATxfSQO3GgXbaBg=
 
+adm-zip@^0.4.13:
+  version "0.4.13"
+  resolved "http://registry.npm.taobao.org/adm-zip/download/adm-zip-0.4.13.tgz#597e2f8cc3672151e1307d3e95cddbc75672314a"
+  integrity sha1-WX4vjMNnIVHhMH0+lc3bx1ZyMUo=
+
 ajv-errors@^1.0.0:
   version "1.0.1"
   resolved "http://registry.npm.taobao.org/ajv-errors/download/ajv-errors-1.0.1.tgz#f35986aceb91afadec4102fbd85014950cefa64d"
@@ -933,7 +938,7 @@ binary-extensions@^1.0.0:
   resolved "http://registry.npm.taobao.org/binary-extensions/download/binary-extensions-1.13.0.tgz#9523e001306a32444b907423f1de2164222f6ab1"
   integrity sha1-lSPgATBqMkRLkHQj8d4hZCIvarE=
 
-bluebird@^3.5.3:
+bluebird@^3.5.1, bluebird@^3.5.3:
   version "3.5.3"
   resolved "http://registry.npm.taobao.org/bluebird/download/bluebird-3.5.3.tgz#7d01c6f9616c9a51ab0f8c549a79dfe6ec33efa7"
   integrity sha1-fQHG+WFsmlGrD4xUmnnf5uwz76c=
@@ -1706,6 +1711,14 @@ from2@^2.1.0:
   dependencies:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
+
+fs-adapters@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.taobao.org/fs-adapters/download/fs-adapters-1.0.0.tgz#37d42cc2c33b337cc6eaa7228fc1641a010df258"
+  integrity sha1-N9QswsM7M3zG6qcij8FkGgEN8lg=
+  dependencies:
+    bluebird "^3.5.1"
+    stream-buffers "^3.0.2"
 
 fs-minipass@^1.2.5:
   version "1.2.5"
@@ -3123,6 +3136,14 @@ sax@^1.2.4:
   resolved "http://registry.npm.taobao.org/sax/download/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha1-KBYjTiN4vdxOU1T6tcqold9xANk=
 
+sblock4js@^0.0.1:
+  version "0.0.1"
+  resolved "http://registry.npm.taobao.org/sblock4js/download/sblock4js-0.0.1.tgz#7748ab034bbeaf69bc86eb81d27d033acc2c6115"
+  integrity sha1-d0irA0u+r2m8huuB0n0DOswsYRU=
+  dependencies:
+    adm-zip "^0.4.13"
+    fs-adapters "^1.0.0"
+
 schema-utils@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/schema-utils/download/schema-utils-1.0.0.tgz#0b79a93204d7b600d4b2850d1f66c2a34951c770"
@@ -3295,6 +3316,11 @@ stream-browserify@^2.0.1:
   dependencies:
     inherits "~2.0.1"
     readable-stream "^2.0.2"
+
+stream-buffers@^3.0.2:
+  version "3.0.2"
+  resolved "http://registry.npm.taobao.org/stream-buffers/download/stream-buffers-3.0.2.tgz#5249005a8d5c2d00b3a32e6e0a6ea209dc4f3521"
+  integrity sha1-UkkAWo1cLQCzoy5uCm6iCdxPNSE=
 
 stream-each@^1.1.0:
   version "1.2.3"
